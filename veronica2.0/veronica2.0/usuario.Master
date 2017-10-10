@@ -1,0 +1,60 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="usuario.master.cs" Inherits="veronica2._0.usuario" %>
+
+<!DOCTYPE html>
+<html lang="en">
+<head runat="server">
+<title>Solicitud de Servicios</title>
+<meta charset="utf-8">
+<link rel="stylesheet" href="css/reset.css" type="text/css" media="all">
+<link rel="stylesheet" href="css/layout.css" type="text/css" media="all">
+<link rel="stylesheet" href="css/style.css" type="text/css" media="all">
+<script type="text/javascript" src="js/jquery-1.6.js"></script>
+<script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
+<script type="text/javascript" src="js/tms-0.3.js"></script>
+<script type="text/javascript" src="js/tms_presets.js"></script>
+<script type="text/javascript" src="js/script.js"></script>
+<!--[if lt IE 9]>
+<script type="text/javascript" src="js/html5.js"></script>
+<style type="text/css">#menu a, .bg, .bg2, #ContactForm a {behavior:url("../js/PIE.htc")}
+    .auto-style1
+    {
+        height: 100px;
+    }
+    .auto-style2
+    {
+        height: 85px;
+    }
+</style>
+<![endif]-->
+</head>
+<body id="page5">
+    <form id="form1" runat="server">
+<div class="body1">
+  <div class="main">
+    &nbsp;<!--header -->
+    <header>
+        <div class="wrapper">
+            <h1><a href="inicio.aspx" id="logo"></a></h1>
+        </div>
+        
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+
+            </asp:ContentPlaceHolder>
+
+        
+        
+
+
+    </header>
+    <!-- / header -->
+    <!-- content -->
+  </div>
+    <asp:ContentPlaceHolder ID="ContentPlaceHolder2" runat="server">
+
+            </asp:ContentPlaceHolder>
+</div>
+<div class="body2">
+</div>
+    </form>
+</body>
+</html>
